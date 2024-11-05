@@ -478,6 +478,9 @@
 //
 #define BOARD_CREALITY_CR4NS          5300  // Creality CR4NS200320C13 (GD32F303RET6) as found in the Ender-3 V3 SE
 
+#define BOARD_XETOZ_CNC_F4            5500 // stm32f405 based cnc board
+#define BOARD_XETOZ_3D_F4             5501 // stm32f405 based 3d printer board
+
 //
 // ARM Cortex-M7
 //
@@ -495,6 +498,10 @@
 #define BOARD_BTT_KRAKEN_V1_0         6010  // BigTreeTech Kraken v1.0 (STM32H723ZG)
 #define BOARD_TEENSY41                6011  // Teensy 4.1
 #define BOARD_T41U5XBB                6012  // T41U5XBB Teensy 4.1 breakout board
+
+#define BOARD_XETOZ_CNC_H7            6100 // stm32h743 based cnc board
+#define BOARD_XETOZ_3D_H7             6101 // stm32h743 based 3d printer board
+
 
 //
 // Espressif ESP32 WiFi

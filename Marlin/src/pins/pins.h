@@ -851,6 +851,10 @@
 #elif MB(CREALITY_CR4NS)
   #include "stm32f1/pins_CREALITY_CR4NS.h"          // STM32F1                              env:STM32F103RE_creality env:STM32F103RE_creality_maple
 
+#elif MB(XETOZ_CNC_F4)
+  #include "stm32f4/pins_XETOZ_F405.h"           // STM32F4                              env:TH3D_EZBoard_V2_OpenBLT
+
+
 //
 // ARM Cortex-M7
 //
@@ -881,6 +885,9 @@
   #include "teensy4/pins_TEENSY41.h"                // Teensy-4.x                           env:teensy41
 #elif MB(T41U5XBB)
   #include "teensy4/pins_T41U5XBB.h"                // Teensy-4.x                           env:teensy41
+
+#elif MB(XETOZ_CNC_H7)
+  #include "stm32h7/pins_XETOZ_H743.h"           // STM32F4                              env:STM32H743VI_btt
 
 //
 // Espressif ESP32
