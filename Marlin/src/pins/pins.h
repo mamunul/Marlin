@@ -887,7 +887,7 @@
   #include "teensy4/pins_T41U5XBB.h"                // Teensy-4.x                           env:teensy41
 
 #elif MB(XETOZ_CNC_H7)
-  #include "stm32h7/pins_XETOZ_H743.h"           // STM32F4                              env:STM32H743VI_btt
+  #include "stm32h7/pins_XETOZ_H743.h"           // STM32H7                              env:STM32H743VI_btt
 
 //
 // Espressif ESP32

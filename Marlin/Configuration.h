@@ -69,7 +69,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_XETOZ_CNC_F4
+  #define MOTHERBOARD BOARD_XETOZ_CNC_H7
 #endif
 
 // @section serial
